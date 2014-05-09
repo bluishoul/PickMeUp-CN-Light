@@ -6,24 +6,26 @@
  * @copyright	Copyright (c) 2008-2009, Stefan Petre
  * @license		MIT License, see license.txt
  */
-$border-radius						: .4em;
-$background							: #000;
-$color								: #eee;
+$border-radius						: .3em;
+$background							: #FFF;
+$color								: #333;
+$border-color         : #DDD;
 $color-hover						: #88c5eb;
 $nav-color							: $color;
 $nav-color-hover					: $color-hover;
 $not-in-month						: #666;
 $not-in-month-hover					: #999;
 $disabled							: #333;
-$selected							: $color;
-$selected-background				: #136a9f;
-$not-in-month-selected-background	: #17384d;
+$selected							: #FFF;
+$selected-background				: #68AFDA;
+$not-in-month-selected-background	: #628FAC;
 $day-of-week						: $not-in-month-hover;
 $today-background					: $not-in-month-selected-background;
 $today-color						: $color-hover;
 
 .pickmeup {
 	background      : $background;
+  border          : 1px solid $border-color;
 	border-radius   : $border-radius;
 	-moz-box-sizing : content-box;
 	box-sizing      : content-box;
